@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Snake game</title>
+  <link rel="stylesheet" href="snake.css">
+</head>
+
+<body>
+  <div id="title">
+    <h1 class="Title">Snake Game</h1>
+  </div>
+  <div class="container">
+    <canvas class="canvas" height="400" width="400"></canvas>
+    <div class="results">
+      <div>
+        <h2 class="current">Current Score</h2>
+        <h2 id="currentScore" class="resault-center">0</h2>
+      </div>
+      <div>
+        <p class="resault-center">High Score</p>
+        <p id="highScore" class="resault-center">0</p>
+      </div>
+      <div class="resault-center-box">
+        <label for="wallsbutton" class="textForWalls">Walls On</label>
+        <input type="checkbox" id="wallsbutton">
+      </div>
+      <div class="resault-center" class="Button">
+        <button id="restartButton">Restart</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script type="text/javascript" src="snake.js"></script>
+
+</html>

@@ -1,0 +1,78 @@
+.canvas {
+  background-color: #3e3e3e;
+}
+
+#title {
+  background-color: #91dbeb;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  background-color: #f0ffff;
+}
+
+.results {
+  background-color: #91dbeb;
+  width: 280px;
+  display: grid;
+  grid-auto-rows: auto;
+  grid-template-rows: 35% 30% 15% 15%;
+  justify-content: center;
+}
+
+.Title {
+  font-size: 3rem;
+}
+
+button {
+  background-color: #69ebff;
+  border: 1px solid #d1f9ff;
+  width: 100px;
+  height: 30px;
+  text-size-adjust: 1.5rem;
+}
+
+button:hover {
+  background-color: #f0ffff;
+}
+
+.current {
+  margin-top: 40px;
+}
+
+.resault-center {
+  display: flex;
+  justify-content: center;
+}
+
+.resault-center-box {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.textForWalls {
+  display: flex;
+  justify-content: end;
+}
+
+#wallsbutton {
+  cursor: pointer;
+  background: #eee;
+  border: 0;
+  -moz-user-select: none;
+
+}
+
+#wallsbutton:hover {
+  background-color: #ccc;
+}
